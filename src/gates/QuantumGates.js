@@ -45,5 +45,8 @@ class QuantumGates {
     }
     return op
   }
+  static custom(matrix) {
+    return matrix
+  }
 }
 export default QuantumGates
